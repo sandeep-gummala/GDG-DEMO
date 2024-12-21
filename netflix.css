@@ -1,0 +1,215 @@
+nav{
+   display: flex;
+   justify-content: space-between;
+}
+img{
+    height: 60px;
+    width: 120px;
+    margin: 20px;
+}
+.lan{
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.main{
+ height: 100vh;
+ width: 100vw;
+ border-bottom: 5px;
+border-bottom-color: rgb(83, 80, 80);
+ background: url(projects/36.netflix-background.jpg);
+ background-repeat: no-repeat;
+}
+select{
+  margin-right: 20px;
+  height: 30px;
+  width: 100px;
+  background: transparent;
+  border-color: rgb(125, 132, 132);
+  color: white;
+  border-width: 1px;  
+  font-size: medium;
+}
+button{
+  height: 36px;
+  width:75px;
+  border-radius: 8px;
+  background-color:rgb(199, 29, 29) ;
+  color: white;
+  border: none;
+}
+body{
+  border: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+.layer{
+     height: 100vh;
+     width: 100vw;
+    border: 0;
+    background:linear-gradient(180deg,rgb(0, 0, 5)0% ,rgba(14, 13, 13, 0.54)50%,  rgb(0, 0, 5)100%);
+}
+.up, .down{
+  height: 40%;
+  width: 100%;
+}
+.text{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:60px ;
+}
+.text h1{
+  height: 50px;
+  width: 80%;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text h2{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+}
+.text p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.go{
+  display: flex;
+  height: 50px;
+  justify-content: center;
+}
+.go input{
+  width: 550px;
+  border-radius: 10px;
+  font-size: 20px ;
+  text-align: initial;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.408);  
+  background-color:rgba(0, 0, 0, 0.39);
+  color: rgb(251, 249, 247);
+}
+.go button{
+  width:200px;
+  height: 50px;
+  background-color: rgb(255, 0, 0);
+}
+.box1, .box2,.box3,.box4,.box6{
+  color: white;
+  height: 70vh;
+  border-bottom: 10px rgb(33, 33, 33) solid;
+}
+.box5{
+  color: white;
+  height: 90vh;
+  border-bottom: 10px rgb(33, 33, 33) solid;
+}
+.img {
+  height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.img img{
+  height: 80%;
+  width: 80%;
+}
+.box1{
+  border-top: 10px rgb(33, 33, 33) solid;
+}
+.box3,.box1{
+  display: flex;
+  justify-content: space-between;
+  flex-direction:row-reverse;
+  padding-left: 40px;
+  align-items: center;
+}
+.box1 div,.box2 div,.box3 div,.box4 div{
+  width: 50%;
+}
+.box2,.box4{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.box2,.box4{
+  display: flex;
+  justify-content: space-between;
+  flex-direction:row;
+  padding-left: 40px;
+  align-items: center;
+  text-align: start;
+}
+.q h2{
+  height: 45px;
+  width: 95%;
+  background-color: rgb(34, 34, 34);
+  margin: 6px;
+  align-items: center;
+  padding-left: 12px;
+  font-size: 20px;
+  padding-top: 15px;
+  margin-left: 30px;
+}
+.q h1{
+  text-align: center;
+  height: 80px;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+.start{
+  text-align: center;
+  width: 100vw;
+  height: 60px;
+}
+.start p{
+  font-size: 28px;
+  margin-bottom: 0px;
+}
+.start input{
+  margin-top: 15px;
+  height: 60px;
+  width: 38%;
+  border-radius: 6px;
+  background: transparent;
+  font-size: 20px;
+  color: white;
+}
+.start button{
+  width: 200px;
+  height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.line{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 45px;
+  text-align: start;
+}
+.line a{
+  color: white;
+}
+.box6{
+  padding-left: 30px;
+}
+
+.para,.para1{
+  height: 300px;
+  width: max-content;
+}
+.para{
+  padding-left: 100px;
+}
+.para h1,.para1 h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 60px;
+  
+}
+.para p,.para1 p{
+  font-size: 26px;
+  text-align: initial;
+}
